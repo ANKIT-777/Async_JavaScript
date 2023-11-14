@@ -5,9 +5,9 @@ function Promisetask() {
         JsonGenerator('file2.json', () => {
             JsonGenerator('file3.json', () => {
           Promise.all([
-            // FileDeletor('file1.json'),
-            // FileDeletor('file2.json'),
-            // FileDeletor('file3.json'),
+            FileDeletor('file1.json'),
+            FileDeletor('file2.json'),
+            FileDeletor('file3.json'),
           ])
             .then(() => {
               console.log('Files deleted all with callbacks and promises');
