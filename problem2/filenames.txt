@@ -1,0 +1,16 @@
+uppercase.txt
+sentence_1.txt
+sentence_2.txt
+sentence_3.txt
+sentence_4.txt
+sentence_5.txt
+sentence_6.txt
+sentence_7.txt
+sentence_8.txt
+sentence_9.txt
+sentence_10.txt
+sentence_11.txt
+sentence_12.txt
+sentence_13.txt
+sentence_14.txt
+sorted.txt
