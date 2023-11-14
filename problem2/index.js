@@ -1,5 +1,7 @@
 const readFileAsync = require('./readAsync.js');
 const writeFileAsync = require('./writeFileAsync.js');
+const processFileAsync = require('./processFileAsync.js')
+
 
 const main = async () => {
   try {
@@ -8,7 +10,11 @@ const main = async () => {
 
     // Step 2
     const uppercaseContent = originalContent.toUpperCase();
-    await writeFileAsync('uppercase.txt', uppercaseContent);
+    const uppercaseFilename = await writeFileAsync('uppercase.txt', uppercaseContent);
+
+     // Step 3
+    const sentences = await processFileAsync(uppercaseFilename);
+
 
    
 
